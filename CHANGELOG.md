@@ -31,9 +31,10 @@ This changelog is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - Added `examples/token_create_transaction_token_fee_schedule.py` to demonstrate creating tokens with custom fee schedules and the consequences of not having it.
 - Added `examples/token_create_transaction_wipe_key.py` to demonstrate token wiping and the role of the wipe key.
 - Added `examples/account_allowance_approve_transaction_hbar.py` and `examples/account_allowance_delete_transaction_hbar.py`, deleted `examples/account_allowance_hbar.py`. [#775]
-
+- Added `docs/sdk_developers/training/network_and_client.md` beginner-friendly guide explaining Hedera Network and Client setup, node configuration, operator credentials, and their interaction.
 
 ### Changed
+
 - Upgraded step-security/harden-runner v2.13.2
 - bumped actions/checkout from 5.0.0 to 6.0.0
 - Limit workflow bot to one message per PR
@@ -52,7 +53,6 @@ This changelog is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - chore: fixed integration test names without a test prefix or postfix
 - Staked node ID id issue in the account_create_transationt_e2e_test
 - workflow: verified commits syntax for verfication bot
-
 
 ## [0.1.8] - 2025-11-07
 
